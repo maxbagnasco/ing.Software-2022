@@ -4,6 +4,9 @@ El proyecto consta de una API REST sobre Pokemones. En el cual mediante los dife
 Se dividio el proyecto en una parte de servicios, donde hacemos las peticiones HTTP y simulamos la creacion y obtencion de usuario, y otra en las routes donde hacemos las funciones de estos endpoints.
 Utilizamos la pokeapi, que nos brinda gran cantidad de informacion para poder trabajar.
 
+*Aclaracion: Se ejecuta en el puerto 3001, debido que al momento que estabamos relizando
+la actvidad, ese puerto estaba en uso y decicimos cambiarlo. Tener atencion al ejectuar
+esta api, que por default Node js, corre sus servicios en el puerto 3000.
 
 Endpoints :
 
