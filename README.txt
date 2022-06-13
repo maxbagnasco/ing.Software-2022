@@ -13,3 +13,5 @@ localhost:3001/:id : consulto un pokemon en particular. como tambien asi podemos
 
 localhost:3001/users/login : en este endpoint simulamos un logeo, donde podemos ingresar al sitio. Usuario simulado : user: ingenieriasoftware password: 123456
 localhost:3001/users/create : en este endpoint podemos crear un usuario y nos devuelve una respuesta, si fue creado correctamente o no. 
+
+En el codigo, estan comentados como fuimos llevando a cabo algunos procesos, y algunas cuestiones que se nos presentaron a la hora de trabajar con la pokeapi y con algun otro problema que se presento. 
