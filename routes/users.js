@@ -12,7 +12,7 @@ const getUser = (req,res,next)=>{
     console.log(error);
     res.json({message:"Error en user o password"})
     //res.sendStatus(403);
-    //el servidor entiende la solicutd, pero se niega a autroizarla.
+    //el servidor entiende la solicitud, pero se niega a autorizarla.
   }
 }
 const createUser = (req,res,next)=>{
@@ -26,7 +26,7 @@ const createUser = (req,res,next)=>{
     console.log(error);
     res.json({message:"Error al crear usuario"})
     // res.sendStatus(403);
-    //el servidor entiende la solicutd, pero se niega a autroizarla.
+    //el servidor entiende la solicitud, pero se niega a autorizarla.
   }
 }
 router.post('/login',getUser);
