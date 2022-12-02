@@ -18,3 +18,15 @@ localhost:3001/users/login : en este endpoint simulamos un logeo, donde podemos 
 localhost:3001/users/create : en este endpoint podemos crear un usuario y nos devuelve una respuesta, si fue creado correctamente o no. 
 
 En el codigo, estan comentados como fuimos llevando a cabo algunos procesos, y algunas cuestiones que se nos presentaron a la hora de trabajar con la pokeapi y con algun otro problema que se presento. 
+
+
+Características Frontend.
+Home.
+Listado de productos.
+Destacados
+Detalle del producto
+Contácto
+
+Características Backend
+Logueo por usuario
+Sección productos
